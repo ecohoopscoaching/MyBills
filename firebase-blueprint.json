@@ -1,0 +1,15 @@
+{
+  "collections": [
+    {
+      "name": "bills",
+      "fields": [
+        { "name": "userId", "type": "string" },
+        { "name": "name", "type": "string" },
+        { "name": "amount", "type": "number" },
+        { "name": "dueDate", "type": "timestamp" },
+        { "name": "isPaid", "type": "boolean" },
+        { "name": "paidDate", "type": "timestamp" }
+      ]
+    }
+  ]
+}
